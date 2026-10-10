@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tratos_diablo",
+  "version": "${version}",
+  "name": "Tratos con el Diablo",
+  "description": "Tótems de inmortalidad con bonos de atributos: Común, Avanzado, Supremo y Legendario.",
+  "authors": ["Tú"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tratosdiablo.TratosDiabloMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
